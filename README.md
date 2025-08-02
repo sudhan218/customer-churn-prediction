@@ -71,7 +71,7 @@ Instead, sample data and instructions to obtain the full dataset are provided.
 ## 🚀 Usage
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/customer-churn-prediction.git
+   git clone https://github.com/sudhan218/customer-churn-prediction.git
    cd customer-churn-prediction
 2. **Install Dependencies**
    ```bash

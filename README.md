@@ -19,7 +19,7 @@ The solution covers:
 ---
 
 ## 📊 Dataset
-The project uses a **Customer Churn dataset** (such as the Telco Customer Churn dataset) which contains:
+The project uses a **Customer Churn dataset** (such as the Telco Customer Churn dataset), which contains:
 - **Demographic information** — gender, age, location
 - **Service details** — subscription type, contract duration, services used
 - **Account information** — tenure, monthly charges, payment method
@@ -73,4 +73,13 @@ Instead, sample data and instructions to obtain the full dataset are provided.
    ```bash
    git clone https://github.com/yourusername/customer-churn-prediction.git
    cd customer-churn-prediction
+2. **Install Dependencies**
+   ```bash
    pip install -r requirements.txt
+3. **Training**
+   ```bash
+   python scripts/train.py --data-path data/raw/Telco_Customer_Churn.csv
+4. **Inference**
+   ```bash
+   streamlit run src/inference/app.py
+   

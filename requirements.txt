@@ -1,0 +1,15 @@
+# Data handling
+pandas
+numpy
+
+# Machine learning
+scikit-learn
+joblib
+xgboost
+
+# Visualization (optional but useful)
+matplotlib
+seaborn
+
+# Environment variables (optional, for secrets/config)
+python-dotenv
